@@ -1,0 +1,43 @@
+#elementy-blokowe {
+    background-color: #4bb5b5;
+}
+
+#elementy-liniowe {
+    background-color: coral;
+}
+
+#elementy-inline-block {
+    background-color: darksalmon;
+}
+ 
+#element-display-none {
+    background-color: #d66767;
+}
+
+#elementy-blokowe #block-p1, #block-p2 {
+    display: inline; 
+}
+
+#elementy-liniowe #inline-p1, #inline-p2 {
+    display: block;  
+}
+
+#elementy-inline-block>ul>li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+#element-display-none > p {
+    display: none;
+}
+
+
+
+
+
+
+
