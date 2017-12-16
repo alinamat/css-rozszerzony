@@ -1,0 +1,7 @@
+img {
+
+}
+
+.rotate img {
+    transform: rotate(50deg);
+}
