@@ -2,6 +2,34 @@ img {
 
 }
 
+
+/*--obrot obrazka--*/
 .rotate img {
-    transform: rotate(50deg);
+    transform: rotate(30deg);
+}
+
+/*--przesuniecie na na 200px i 100px--*/
+
+.translate img {
+    transform: translate(200px, 100px);
+}
+
+.scale img:hover {
+    transform: scale(1.5);
+}
+
+.animation img {
+    animation-name: relize;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes relize {
+    0%, 50% {
+        width: 100%;
+    }
+    50% {
+        width: 10%;
+    }
 }
